@@ -53,6 +53,15 @@ p {
   background-color: #f4f4f4;
   color: #333;
 }
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #fff;
+}
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
 .btn:hover {
   background-color: #f7c08a;
   color: #333;
@@ -115,5 +124,30 @@ p {
 
 #showcase .showcase-content p {
   line-height: 1.7em;
-  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("../img/photo-1.jpg") no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
